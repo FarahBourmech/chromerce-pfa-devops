@@ -17,3 +17,9 @@ ls
 cat initialAdminPassword 
 cd ..
 exit
+exit
+exit
+docker
+service docker status
+service docker start
+exit

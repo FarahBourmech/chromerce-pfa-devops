@@ -36,43 +36,7 @@ $conn = null; // Close connection
 <div class="flex">
       <div class="container">
           
-            <div class="slider-outer">
-              <img src="images/arrow-left.png" class="prev" alt="Prev">
-              <div class="slider-inner">
-                <img src="images/pic-5.jpg" class="active">
-                <?php 
-                  try {
-                    $conn = new PDO("mysql:host=db;port=3306;dbname=chromerce", 'chromerce', 'password');
-                    // set the PDO error mode to exception
-                    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                    $stmt = $conn->prepare("SELECT image FROM banner");
-                    $stmt->execute();
-                    $banner_array = $stmt->fetchAll();
-                    //var_dump($banner_array); die();
-                  } catch(PDOException $e) {
-                    echo "Connection failed: " . $e->getMessage();
-                    die(); // Kill the page if database is not working
-                  }
-                  $conn = null; // Close connection
-
-                  $i = 0;
-                  foreach ($banner_array as $banner)
-                  {
-                    if($i%3 ==0){
-                      echo "<tr>";
-                    }
-                    
-                    echo '<img src="data:images/jpeg;base64,'.base64_encode($banner['image'] ).'"/>';
-                    
-                    if($i%3 ==2) {
-                      echo "</tr>";
-                    }
-                    $i++;
-                  }
-                ?>
-              </div>
-              <img src="images/arrow-right.png" class="next" alt="Next">
-            </div>
+         
       </div>
 </div>
 

@@ -6,5 +6,9 @@
       <string>farahbourmech</string>
       <string>farahbourmech_9819050964875395412</string>
     </entry>
+    <entry>
+      <string>admin</string>
+      <string>admin_16378218725612263228</string>
+    </entry>
   </idToDirectoryNameMap>
 </hudson.model.UserIdMapper>
