@@ -11,7 +11,7 @@
 </head>
 <body>
 
-	<!---------- navbar ---------->
+	<!---------- navbar farah ---------->
 	<?php
 	include("navbar.php"); //farah bourmech farah
 	?>
