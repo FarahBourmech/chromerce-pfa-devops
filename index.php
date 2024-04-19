@@ -34,7 +34,7 @@ $conn = null; // Close connection
 <body>
 <!-- BEGIN SLIDE SHOW -->
 <div class="flex">
-      <div class="container">
+      <div class="container"> 
           
          
       </div>
@@ -53,7 +53,7 @@ $conn = null; // Close connection
             <h1>FIND THE PRODUCTS OF YOUR DREAMS!</h1>
               <h1>Happiness guranteed!</h1>
               <button><a href="products.php" style="color:white;"><h1>Shop Now!</h1></a></button>
-          </header>
+          </header> <!-- test -->
     </div>
 <!-- END HERO-->
 

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-19 16:16:42.394 UTC</timestamp>
+  <md5sum>422e04dba7e34c0f00d25b9474da5031</md5sum>
+  <fileName>Credential id=dockerhub-farahbourmech1 name=farahbourmech1/****** (chromerce)</fileName>
+  <usages>
+    <entry>
+      <string>chromerce-pfa</string>
+      <ranges>24-26</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -12,6 +12,9 @@
   <description>docker jenkins pipeline</description>
   <keepDependencies>false</keepDependencies>
   <properties>
+    <org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty>
+      <abortPrevious>false</abortPrevious>
+    </org.jenkinsci.plugins.workflow.job.properties.DisableConcurrentBuildsJobProperty>
     <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.38.0">
       <projectUrl>https://github.com/FarahBourmech/chromerce-pfa-devops.git/</projectUrl>
       <displayName></displayName>
@@ -37,6 +40,24 @@
         stage(&apos;Build db image&apos;){
             steps{
                 sh &quot;docker build -t farahbourmech1/chromerce-db -f Dockerfile.db .&quot;
+            }
+        }
+        stage(&apos;Build php image&apos;){
+            steps{
+                sh &quot;docker build -t farahbourmech1/chromerce-php -f Dockerfile.php .&quot;
+            }
+        }
+        stage(&apos;Push to Docker Hub&apos;){
+            steps{
+                script{
+                    withCredentials([usernamePassword(credentialsId: &apos;dockerhub-farahbourmech1&apos;, passwordVariable: &apos;DOCKER_HUB_PASSWORD&apos;, usernameVariable: &apos;DOCKER_HUB_USER&apos;)]){
+                        sh &quot;echo $DOCKER_HUB_PASSWORD | docker login -u $DOCKER_HUB_USER --password-stdin&quot;
+                        
+                        sh &apos;docker push farahbourmech1/chromerce-db&apos;
+                        sh &apos;docker push farahbourmech1/chromerce-php&apos;
+                    }
+                    
+                }
             }
         }
     }

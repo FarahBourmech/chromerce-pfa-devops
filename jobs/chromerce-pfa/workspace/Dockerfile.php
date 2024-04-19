@@ -1,0 +1,12 @@
+FROM php:apache
+
+RUN echo 'ServerName chromerce-www-1' >> /etc/apache2/apache2.conf
+RUN apt-get update && docker-php-ext-install mysqli pdo_mysql 
+COPY . /var/www/html
+ENV DB_HOST=db
+ENV DB_PORT=3306
+ENV DB_USER=chromerce
+ENV DB_PASSWORD=password
+ENV DB_NAME=chromerce
+EXPOSE 80
+CMD ["apache2-foreground"]

@@ -1,0 +1,215 @@
+Started by user [8mha:////4KD+m0L1dZgsAAUr3E0sUNEwA9JWekeMDqJclQRb7GlNAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZh/dLi1CL9tMSixIyk/NKi3NTkDADzkWZTyAAAAA==[0mFarah Bourmech
+[8mha:////4DdW3yYMEzG5Lzpn3kPoovunHOv/0Ru3InX0j9+TQBKnAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4NH5T/WXJAz8YZVBzmjInWW1sSkvgpRYTJdkSpYPabqzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JHNlQDkXpnogYgryWPOFtoDoj3Bb66VJq9MLKxwy6uzAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/jobs/chromerce-pfa/workspace
+[8mha:////4GzrLtoXQnqqjdGtu0AojheXAkM+BXLaDabmN7M52NuZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MYITMjvvDXfemLsR03LhtheugM5rxMrfuoWXUzIxEJdAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Hpau9GapmwKcRdJVIRkHDXWUaYgrfxK23zpb23USk4UAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4DbeT07ePrYKB/aHkIZnmWcH3wkECYs2hS6+XU8a5PvLAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] echo
+checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'dockerhub', url: 'https://github.com/FarahBourmech/chromerce-pfa-devops.git']])
+[8mha:////4EuiokHlFAvTY/39QEkT0UlAzMsjaU1ds+Z5CqB87FyiAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4MUvZHR5L2MfWCeUhTP5iEnmiLg5C76wySPhRJHoi1FBAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4BY2LY/2WZoIkL/bRkryBIYFA2hvdi/JpjYDuoVXmeWiAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4KoXQNc9S7FpL2LDsbf6olFPgiDWxo/hT0UTWoU7aqVmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build db image)
+[8mha:////4NdcdzxbyK0rubo+UQszwlWtP7hWqDeSc3XYWhuRuhVmAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ docker build -t farahbourmech1/chromerce-db -f Dockerfile.db .
+#1 [internal] load .dockerignore
+#1 sha256:10cd7f91d2357d31ad7ff78eced4444f46cb8870b280292b1db30b786f90bfc9
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile.db
+#2 sha256:db963b2a99c17df99ec9f2ea6f6f6dd25361038c7e67fc05dbc28d90f19d9f52
+#2 transferring dockerfile: 238B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/mysql:latest
+#3 sha256:f4914bf881bba81f49673260093dead2b629e18e4d67c76939b1f813bb051069
+#3 DONE 1.2s
+
+#6 [1/2] FROM docker.io/library/mysql:latest@sha256:9de9d54fecee6253130e65154b930978b1fcc336bcc86dfd06e89b72a2588ebe
+#6 sha256:b73b018d19504de7b940b8b516ff54381ad7e44033f45319108ccaa4b910e4e4
+#6 DONE 0.0s
+
+#5 [internal] load build context
+#5 sha256:1f2f71225a07f6975c80ce7b50cfb92ab205f9021c3c94246b0556462f35b202
+#5 transferring context: 62B 0.0s done
+#5 DONE 0.0s
+
+#4 [2/2] COPY ./db /docker-entrypoint-initdb.d
+#4 sha256:2e6718a208c9ae2d3b00c8d503672d40a1a15a69d0f6e8b817d3b061d10702e5
+#4 CACHED
+
+#7 exporting to image
+#7 sha256:2c696ea0dd755acb314c1a585935336b66f0063411356f4a1ce5e5db55efb783
+#7 exporting layers done
+#7 writing image sha256:a0f3684b4b4bd16b7108df3cff062f386551a160f48fbc661c848d17dc52dc29 done
+#7 naming to docker.io/farahbourmech1/chromerce-db:latest done
+#7 DONE 0.0s
+[8mha:////4CqbEjZeSekSsxuIXYHhgFv+RbFdjEfKCsmrzmb+g35PAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4FROE87MoPwl257JXEEidI9l0FutJL/z7XyOvrlO9cF5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4GaF5LsjouLB9/la8n+gHabeInf2TS/zbvtmQQ91ie6wAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4I0mHFHdaUbMW/8fJdVFSKGuKDWpDU46ftXWDwmwZljuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Build php image)
+[8mha:////4DcsConmX/gbWNCCHXyJ8hC6m0r68YuE3q19mndbAm7CAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ docker build -t farahbourmech1/chromerce-php -f Dockerfile.php .
+#1 [internal] load .dockerignore
+#1 sha256:3829ae0bfcc7023b34c3068cbcbe2dbcbaeaa57159eb2b221a15d93098bf6dfd
+#1 transferring context: 2B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile.php
+#2 sha256:fda0d9cc97bc2e68e804f46fb5250298ef3b2b18877a1e3aa3916c423a56efb5
+#2 transferring dockerfile: 359B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/php:apache
+#3 sha256:8fb2bf12c67957dc172d3bdbab3430b422010f824782d16bc0d11a03a087e816
+#3 DONE 0.0s
+
+#8 [1/4] FROM docker.io/library/php:apache
+#8 sha256:e476f5cfe19aaff7ee25cad220b8a9e53109beff80ff32fa9df745e68ddaf3f5
+#8 DONE 0.0s
+
+#5 [internal] load build context
+#5 sha256:1063631cd1a30611dd5cf6f1d85357028e9dd455bbe151c383ccebe18cdf4ccf
+#5 transferring context: 659B 0.0s done
+#5 DONE 0.0s
+
+#6 [3/4] RUN apt-get update && docker-php-ext-install mysqli pdo_mysql
+#6 sha256:d2dffab013019a670244b81b829dae52590688667d75083c62a39095eaeebd20
+#6 CACHED
+
+#7 [2/4] RUN echo 'ServerName chromerce-www-1' >> /etc/apache2/apache2.conf
+#7 sha256:4052d49c6efe18f4b197f81a9f97f0a2430edce3f1f50fdcb0252e0953bd7659
+#7 CACHED
+
+#4 [4/4] COPY . /var/www/html
+#4 sha256:4f441769fb936df7bd2dea3a44195879068d2fb083e1d32b4c91e8513d9e2ecb
+#4 CACHED
+
+#9 exporting to image
+#9 sha256:97fb8e0d6d9dc3375229f7d98878a89bf1a654af6e9965612deec187aa84d0ff
+#9 exporting layers done
+#9 writing image sha256:cfecd38f0e01fe7d2fb654de16926961ca459129b6535a626c6ede409befa6e4 done
+#9 naming to docker.io/farahbourmech1/chromerce-php:latest done
+#9 DONE 0.0s
+[8mha:////4DoHOLlYwkBzCjGebZqB2tFk+/UXC1B21idHcSxiYmLkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4NYNej9vU6BOThcYOQO4deM871Dz0c84xeMNJ98ColxhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DMWuolCYhE7VWeKG/W/HkfZrDJTO5ydf+9MO9fkWpWeAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDEB2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INK/7CYMEAAAA=[0m[Pipeline] stage
+[8mha:////4ElhtM135Avp4wGprWVi1YdO+p/ATRGASrmsf0uh/Ak4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Push to Docker Hub)
+[8mha:////4BxLXgM1LgxbpsC7j33S59rU6JQjxGsWTy/sCyjhex6NAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] script
+[8mha:////4D0hPdrGIufF1+UPyjxdH9EjBxWsHSlIaKVlBRg6hywyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4Mx2WHTQUsvX60HKKc5vJyCeFYMmk6Q1pset7hm3bvc3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $DOCKER_HUB_PASSWORD
+[8mha:////4P8nxY2v45mnmBUDkCaB9KV8bEBT5AfVZnW3Y7g2e2H3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4Jf4tp9MM1UwpRsjgnVaIKe1A+9pi4mo28xtvj0fGMmUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [DOCKER_HUB_PASSWORD]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ echo+  ****
+docker login -u farahbourmech1 --password-stdin
+WARNING! Your password will be stored unencrypted in /var/jenkins_home/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4IGBCWlUXUXmn/yd+wNHidzp/9EMEOCIzOs3e0cfTZkSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ docker push farahbourmech1/chromerce-db
+Using default tag: latest
+The push refers to repository [docker.io/farahbourmech1/chromerce-db]
+d9c1903725fa: Preparing
+c9d2a743f993: Preparing
+45ff9f7cb26b: Preparing
+f6a38a23b1a8: Preparing
+e6808e757ea7: Preparing
+650ce9f64cca: Preparing
+126112ee93d5: Preparing
+e2ad1eba353c: Preparing
+817723d99193: Preparing
+74d3e1435881: Preparing
+fc037c17567d: Preparing
+e2ad1eba353c: Waiting
+126112ee93d5: Waiting
+817723d99193: Waiting
+74d3e1435881: Waiting
+fc037c17567d: Waiting
+650ce9f64cca: Waiting
+e6808e757ea7: Mounted from library/mysql
+c9d2a743f993: Mounted from library/mysql
+45ff9f7cb26b: Mounted from library/mysql
+f6a38a23b1a8: Mounted from library/mysql
+126112ee93d5: Mounted from library/mysql
+e2ad1eba353c: Mounted from library/mysql
+650ce9f64cca: Mounted from library/mysql
+74d3e1435881: Mounted from library/mysql
+817723d99193: Mounted from library/mysql
+fc037c17567d: Mounted from library/mysql
+d9c1903725fa: Pushed
+latest: digest: sha256:71872cb244cc5c6bfcefd545591bf0557d53e4669a5e09270b9efdf5cac4fe17 size: 2622
+[8mha:////4PEoMAGhOd1d8ngM2YMzkAl4Da/ngzr29mEPJ7slCti/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGkKHc7j61D2+GdwK3vgAAAA==[0m[Pipeline] sh
++ docker push farahbourmech1/chromerce-php
+Using default tag: latest
+The push refers to repository [docker.io/farahbourmech1/chromerce-php]
+217c2e00c1b9: Preparing
+43bbb0ff5b7a: Preparing
+4b5778f3cdba: Preparing
+3f860d97c113: Preparing
+931be4351a12: Preparing
+2b1a80ad14c4: Preparing
+51c0a580baa0: Preparing
+1c84fb5a6730: Preparing
+0e9c058f3ae5: Preparing
+a2bab3e9b82f: Preparing
+23903bcec7e2: Preparing
+39a998ae0e7b: Preparing
+8067cd4e98bf: Preparing
+2885b40ef83e: Preparing
+26b63867e3be: Preparing
+01d1fde6856d: Preparing
+b7a225aef1eb: Preparing
+a38cfbe7cc65: Preparing
+ceb365432eec: Preparing
+51c0a580baa0: Waiting
+1c84fb5a6730: Waiting
+23903bcec7e2: Waiting
+39a998ae0e7b: Waiting
+8067cd4e98bf: Waiting
+2885b40ef83e: Waiting
+26b63867e3be: Waiting
+01d1fde6856d: Waiting
+b7a225aef1eb: Waiting
+0e9c058f3ae5: Waiting
+a2bab3e9b82f: Waiting
+2b1a80ad14c4: Waiting
+a38cfbe7cc65: Waiting
+ceb365432eec: Waiting
+4b5778f3cdba: Pushed
+931be4351a12: Pushed
+2b1a80ad14c4: Pushed
+51c0a580baa0: Mounted from library/php
+1c84fb5a6730: Mounted from library/php
+0e9c058f3ae5: Mounted from library/php
+a2bab3e9b82f: Mounted from library/php
+23903bcec7e2: Mounted from library/php
+39a998ae0e7b: Mounted from library/php
+8067cd4e98bf: Mounted from library/php
+2885b40ef83e: Mounted from library/php
+26b63867e3be: Mounted from library/php
+01d1fde6856d: Mounted from library/php
+b7a225aef1eb: Mounted from library/php
+a38cfbe7cc65: Mounted from library/php
+ceb365432eec: Mounted from library/php
+217c2e00c1b9: Pushed
+43bbb0ff5b7a: Pushed
+3f860d97c113: Pushed
+latest: digest: sha256:8f2a1c576ce0a5e33b3ac4ce67b899b6ad55025281b13cd87cb57ac351081bd1 size: 4296
+[8mha:////4Pb+zEpri/U5lZSJDlnoJFYZKewR/Xdm4qH3uSVjRDu9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] }
+[8mha:////4LWIh3agiTaVgabnjzPaCgVfPtzFP+xUYfTe2jOSeopnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPkohNa2+AAAA[0m[Pipeline] // withCredentials
+[8mha:////4D2nUyyPFo7Q3WWM8gUY1ICJiy8iMT1y0nzZHXerlglNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKz3uQ71B0xnDfi+AAAA[0m[Pipeline] }
+[8mha:////4EuhVp1yuFRH0l6DWF0CN49ZxYcH+A+bJyNhrkVa2YqXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRQomoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AHQlngm+AAAA[0m[Pipeline] // script
+[8mha:////4DF3NbXo6kbID/UqeRcTvp4jLddkgbPorCekq1VO9WiqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9B2uny1u+AAAA[0m[Pipeline] }
+[8mha:////4Lta1TjByS0WPweXhX/vVlE7c2vSOr/S0OCm5M+0D8bJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP0WnyTG+AAAA[0m[Pipeline] // stage
+[8mha:////4P6kXg/jaaBV6Niilca9aJONmA3VH2hPDWTC27cvFUhyAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfIt3tBtvsA/gVtV70AAAA=[0m[Pipeline] }
+[8mha:////4O89W/o58FFobY4jVYy4kNpv8UP+T0+kH/rV2r6zqxvnAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHjeqpjr0AAAA=[0m[Pipeline] // node
+[8mha:////4DPdhWBskDWoy5UmstNqo+5t2hCaKMbw/RTVoucFdjVVAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKvzzsS9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
