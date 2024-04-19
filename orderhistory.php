@@ -67,7 +67,7 @@
                     echo "Connection failed: " . $e->getMessage();
                     die(); // Kill the page if database is not working
                   }
-                  $conn = null; // Close connection
+                  $conn = null; // Close connection coucou
             ?>
         </div>
     </body>
