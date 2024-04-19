@@ -5,7 +5,7 @@ $product_array = [];
 $banner_array = [];
 try {
   $conn = new PDO("mysql:host=db;port=3306;dbname=chromerce", 'chromerce', 'password');
-  // set the PDO error mode to exception
+ //test test test
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   $stmt = $conn->prepare("SELECT id, product_name, price, product_image FROM products");
   $stmt->execute();
@@ -36,7 +36,7 @@ $conn = null; // Close connection
 <div class="flex">
       <div class="container"> 
           
-         
+    <!--test test farah farah -->     
       </div>
 </div>
 
