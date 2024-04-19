@@ -1,0 +1,10 @@
+FROM mysql:latest
+
+ENV MYSQL_DATABASE=chromerce
+ENV MYSQL_ROOT_PASSWORD=password
+ENV MYSQL_USER=chromerce
+ENV MYSQL_PASSWORD=password
+
+COPY ./db /docker-entrypoint-initdb.d
+
+EXPOSE 3306
