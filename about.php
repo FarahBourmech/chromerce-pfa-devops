@@ -13,7 +13,7 @@
 
 	<!---------- navbar ---------->
 	<?php
-	include("navbar.php");
+	include("navbar.php"); //farah bourmech farah
 	?>
 
 	<!---------- testimonial slider ---------->
