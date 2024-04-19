@@ -5,7 +5,7 @@ $product_array = [];
 $banner_array = [];
 try {
   $conn = new PDO("mysql:host=db;port=3306;dbname=chromerce", 'chromerce', 'password');
- //test test test
+ //test test test test e farah farah
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   $stmt = $conn->prepare("SELECT id, product_name, price, product_image FROM products");
   $stmt->execute();
