@@ -5,7 +5,7 @@ if (!isset($_SESSION["loggedin"])) {
   header("location: login.php");
   exit();
 }
-
+//test 
 if (isset($_GET['clear'])) {
   // Clear the cart
   unset($_SESSION['cart_item']);
